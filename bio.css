@@ -1,0 +1,56 @@
+body{
+    background-image: url(images/slate.jpg);
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: lime;
+    font-size: larger;
+}
+nav a:hover{
+    font-weight: bolder;
+    color: #f2f2f2;
+}
+#footer-contacts{
+    display: flex;
+    justify-content: center;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    padding: 5px;
+}
+footer{
+    max-width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #9b9b9b;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+}
+.bio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+    margin-left: 30%;
+}

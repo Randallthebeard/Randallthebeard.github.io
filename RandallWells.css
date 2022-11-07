@@ -1,0 +1,60 @@
+html,body{
+    height: 100%;
+}
+@font-face {
+    font-family: Hertine;
+    src: url(font/Hertine.woff);
+}
+body{
+    background-image:url(Images/Circuit2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    padding: 5px;
+}
+footer{
+    max-width: 100%;
+}
+#footer-contacts{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    margin-top: 150px;
+}
+header{
+    text-align: center;
+    background-color: #d99d54;
+}
+header h1{
+    margin-top: 20%;
+    font-family: Hertine;
+    font-size: 500%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #d99d54;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+}
+nav a:hover{
+    font-weight: bolder;
+}
+#container{
+    flex: 1 0 auto;
+}
