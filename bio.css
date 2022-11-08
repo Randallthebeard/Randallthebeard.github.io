@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/slate.jpg);
+    background-image: url(./images/slate.jpg);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 nav{
@@ -109,6 +109,7 @@ table{
     padding-left: 40px;
     padding-right: 40px;
 }
+<<<<<<< HEAD
 #goal{
     background-color: #9b9b9b;
     margin-left: 50px;
@@ -125,3 +126,5 @@ table{
     margin: 30px;
     padding-bottom: 20px;
 }
+=======
+>>>>>>> a655c385aedba01578a4b1d405c718ae779cae30
