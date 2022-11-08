@@ -1,5 +1,6 @@
 body{
     background-image: url(images/slate.jpg);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 nav{
     background-color: black;
@@ -49,8 +50,57 @@ footer{
 }
 header{
     text-align: center;
+    background-color: #9b9b9b;
+    border-radius: 6px;
 }
 img{
     border-radius: 10px;
     margin-left: 30%;
+}
+
+#container{
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #9b9b9b;
+    border-radius: 6px;
+    padding: 10px;
+}
+#container h2{
+    text-decoration: underline;
+}
+#experience h2{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+table td, table th{
+    padding: 5px;
+    border: #143427 solid 1px;
+    margin: 0;
+    background-color: #d99d54;
+}
+table{
+    border: #143427 solid 1px;
+    border-spacing: 0px;
+    width: 33%;
+    margin-left: 34%;
+    margin-right: 33%;
+}
+#resume{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    margin: 70px;
+}
+#resume a{
+    text-decoration: none;
+}
+#resume a:link{
+    color: lime;
+}
+.work-experience{
+    padding-left: 40px;
+    padding-right: 40px;
 }

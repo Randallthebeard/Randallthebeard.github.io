@@ -20,7 +20,7 @@ header{
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
-    background-color: rgb(199, 199, 199);
+    background-color: #9b9b9b;
     border-radius: 6px;
 }
 .container{
@@ -29,7 +29,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-items: center;
-    background-color: rgb(199, 199, 199);
+    background-color: #9b9b9b;
     border-radius: 6px;
 }
 .content{
