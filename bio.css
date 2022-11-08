@@ -43,6 +43,11 @@ footer{
     margin-right: 20%;
     padding: 10px;
 }
+.container p, .bio p{
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .bio{
     display: flex;
     justify-content: center;
@@ -103,4 +108,20 @@ table{
 .work-experience{
     padding-left: 40px;
     padding-right: 40px;
+}
+#goal{
+    background-color: #9b9b9b;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 6px;
+}
+#future{
+    text-align: center;
+    margin: 30px;
+    padding-top: 10px;
+}
+#example{
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 20px;
 }
