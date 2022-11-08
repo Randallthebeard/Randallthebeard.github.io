@@ -6,7 +6,7 @@ html,body{
     src: url(font/Hertine.woff);
 }
 body{
-    background-image:url(./Images/Circuit2.jpg);
+    background-image:url(Images/Circuit2.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
